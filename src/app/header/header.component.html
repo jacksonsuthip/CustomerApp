@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <!-- <div class="container-fluid"> -->
+    <mat-toolbar color="primary" class="navbar-toolbar w-100">
+        <span class="navbar-brand">CustomerApp</span>
+        <div class="ml-auto">
+            <ul class="navbar-nav d-flex flex-row">
+                <li class="nav-item">
+                    <button mat-button routerLink="/customers" routerLinkActive="active"
+                        [routerLinkActiveOptions]="{exact: true}" class="nav-link" [@fadeIn]="'1'">Customer
+                        List</button>
+                </li>
+                <li class="nav-item">
+                    <button mat-button routerLink="/customers/new" routerLinkActive="active"
+                        [routerLinkActiveOptions]="{exact: true}" class="nav-link" [@fadeIn]="'1.5'">Add
+                        Customer</button>
+                </li>
+            </ul>
+        </div>
+    </mat-toolbar>
+    <!-- </div> -->
+</nav>

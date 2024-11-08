@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+/* Set global font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 5px;
+}
+
+/* Add padding to the main content */
+body,
+main {
+    padding-top: 64px;
+}
+
+.fixed-top {
+    top: 0;
+    width: 100%;
+    z-index: 500;
+}

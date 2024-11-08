@@ -1,0 +1,12 @@
+/* Add smooth animation on hover for icons */
+button i {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+button:hover i {
+    transform: scale(1.2);
+}
+
+button {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}

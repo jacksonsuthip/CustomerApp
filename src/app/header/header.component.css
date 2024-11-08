@@ -1,0 +1,71 @@
+/* Smooth fade-in animation for navbar elements */
+.navbar-toolbar {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -10px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Navbar item animations */
+.nav-item {
+    margin-left: 20px;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
+.nav-item:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.nav-item:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style-type: none;
+}
+
+/* Navigation link styles */
+.nav-link {
+    color: #fff;
+    font-weight: normal;
+    transition: color 0.3s, transform 0.3s ease;
+}
+
+.nav-link.active {
+    color: #ff9800;
+}
+
+.nav-link:hover {
+    color: #ff9800;
+    transform: scale(1.1);
+    /* Slight zoom effect on hover */
+}
+
+/* Spacer */
+.spacer {
+    flex-grow: 1;
+}
