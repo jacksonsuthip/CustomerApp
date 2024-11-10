@@ -1,0 +1,41 @@
+.table-responsive {
+    position: relative;
+}
+
+.table-bordered thead th {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin-top: -5px;
+}
+
+.table-header th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+}
+
+.animate-icon,
+.btn-warning .fa-edit,
+.btn-danger .fa-trash {
+    transition: transform 0.3s ease;
+}
+
+.btn-primary:hover .animate-icon {
+    transform: scale(1.2);
+}
+
+.btn-warning:hover .fa-edit,
+.btn-danger:hover .fa-trash {
+    transform: scale(1.2);
+}
+
+.btn-green {
+    background-color: #4db154;
+    color: white
+}
+
+.btn-green:hover .animate-icon {
+    transform: scale(1.2);
+}

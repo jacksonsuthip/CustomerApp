@@ -1,0 +1,85 @@
+.table-responsive {
+    max-height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+td {
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.table-header th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 0.75rem;
+}
+
+.container {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.card {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.col-md-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+button i {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+button:hover i {
+    transform: scale(1.2);
+}
+
+button {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.2rem;
+}
+
+.form-row {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.form-row label {
+    width: 20%;
+    margin-right: 10px;
+}
+
+.form-row .input-container {
+    width: 80%;
+}
+
+.form-row input {
+    width: 100%;
+}
+
+.error-message {
+    margin-top: 5px;
+    font-size: 0.875rem;
+    display: block;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}

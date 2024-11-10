@@ -1,0 +1,21 @@
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+body {
+    font-family: Arial, sans-serif !important;
+    font-size: 5px;
+}
+
+body,
+main {
+    padding-top: 64px;
+}
+
+.fixed-top {
+    top: 0;
+    width: 100%;
+    z-index: 500;
+}
+
+.card-icon {
+    color: #007bff;
+}
