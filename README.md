@@ -15,6 +15,7 @@
 
 3. **Service Layer**:
    - A dedicated service to manage HTTP requests to a Web API, facilitating data interactions with the backend.
+  
 
 ## Installation and Setup
 1. **Clone the repository**:
@@ -36,6 +37,13 @@
    ```
    The application will be accessible at `http://localhost:4200`.
 
+# Integration Guide
+To integrate your Angular app with the .NET backend, update the file `src/app/services/customer.service.ts`. 
+On line 10, set the `private apiUrl` variable to the correct backend URL, including the host and port, like so:
+```typescript
+private apiUrl = 'http://localhost:5000/api/customers';
+```
+   
 ## Usage
 - **Listing Customers**: Navigate to the customer listing page to view all customers.
 - **Adding a Customer**: Click on "Add Customer" and fill out the form to create a new customer entry.
