@@ -38,10 +38,10 @@
    The application will be accessible at `http://localhost:4200`.
 
 # Integration Guide
-To integrate your Angular app with the .NET backend, update the file `src/app/services/customer.service.ts`. 
+To integrate CustomerApp with the CustomerApi, update the file `src/app/services/customer.service.ts`. 
 On line 10, set the `private apiUrl` variable to the correct backend URL, including the host and port, like so:
 ```typescript
-private apiUrl = 'http://localhost:5000/api/customers';
+private apiUrl = 'http://localhost:22963/api/customers';
 ```
    
 ## Usage
